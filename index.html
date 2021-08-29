@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br"> 
-
+  
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./assets/css/reset.css">
@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     
     <title>Bem-te-vi</title>
+    <link rel="icon" 
+      type="image/ico" 
+      href="./assets/img/bird.ico" />
   </head>
 
   <body>
@@ -49,7 +52,7 @@
               <img src="./assets/img/Group (2).png" alt="">
               <a href="">Listas</a>
             <li class="cabecalho__menuItem">
-              <img src="./assets/img/ProfilePic.png" alt="">
+              <img class = "tweet__fotoPerfil" src="./assets/img/taiiinara.PNG" alt="">
               <a href="">Perfil</a>
             </li>
             <li class="cabecalho__menuItem">
@@ -65,11 +68,18 @@
     <!-- CONTEÚDO PRINCIPAL -->
     <main class="conteudoPrincipal">
 
-      <h3 class="conteudoPrincipal__Titulo">Home</h3>
+      <h3 class="conteudoPrincipal__Titulo">Página Inicial</h3>
 
       <form action="#" class="conteudoPrincipal__Formulario">
+        <div class="conteudoPrincipal__Formulario__container">
+          <div>
+            <img class="conteudoPrincipal__Formulario__Imagem" src="./assets/img/taiiinara.PNG" alt="icone do usuário">
+          </div>
+          <div class="conteudoPrincipal__Formulario__text">
         <textarea name="textoTweet" placeholder="O que está acontecendo?"></textarea>
         <button type="submit">Tweetar</button>
+         </div>
+      </div>
       </form>
 
       <!-- FEED DE NOTÍCIAS -->
@@ -81,8 +91,19 @@
 
             <div class="tweet__conteudo">
               <h2>Daniel</h2>
-              <span>@danielkenzie 14s</span>
-              <p>MAIS DE UM MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. É hora de se preparar... #VouserDev #DoZeroAoCodigo</p>
+              <span class="textoNomeDoUsuario">@danielkenzie • 14s</span>
+              <p>MAIS DE UM MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. É hora de se preparar... <span class="textoDeHashtag">#VouserDev #DoZeroAoCódigo</span> 
+              </p>
+            </div>
+
+          </li>
+          <li class="conteudoPrincipal__tweet">
+            <img class = "tweet__fotoPerfil" src="./assets/img/Kenzie-Social-Media-Logo-01-e1595339622602.jpg" alt="Daniel">
+            <div class="tweet__conteudo">
+              <h2>KenzieAcademyBR</h2>
+             <span class="textoNomeDoUsuario"@kenzieacademybr • 10s</span>
+              <p>Participe da nossa 3° Maratona totalmente gratuita! <span class="textoDeHashtag">#DoZeroAoCódigo</span>
+              </p>
             </div>
 
           </li>
@@ -90,8 +111,18 @@
             <img class = "tweet__fotoPerfil" src="./assets/img/ProfilePic.png" alt="Daniel">
             <div class="tweet__conteudo">
               <h2>Daniel</h2>
-              <span>@danielkenzie 14s</span>
-              <p>MAIS DE UM MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. É hora de se preparar... #VouserDev #DoZeroAoCodigo</p>
+              <span class="textoNomeDoUsuario">@danielkenzie • 14s</span>
+              <p>MAIS DE UM MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. É hora de se preparar... <span class="textoDeHashtag">#VouSerDev #DoZeroAoCódigo</span>
+            </div>
+
+          </li>
+          <li class="conteudoPrincipal__tweet">
+            <img class = "tweet__fotoPerfil" src="./assets/img/taiiinara.PNG" alt="Daniel">
+            <div class="tweet__conteudo">
+              <h2>Tainara</h2>
+              <span class="textoNomeDoUsuario">@tainarasbmlima • 45s</span>
+              <p>Minha primeira maratona de programação do zero ao Código com a Kenzie!!! <span class="textoDeHashtag">#BoraCodar</span>
+              </p>
             </div>
 
           </li>
@@ -99,26 +130,9 @@
             <img class = "tweet__fotoPerfil" src="./assets/img/ProfilePic.png" alt="Daniel">
             <div class="tweet__conteudo">
               <h2>Daniel</h2>
-              <span>@danielkenzie 14s</span>
-              <p>MAIS DE UM MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. É hora de se preparar... #VouserDev #DoZeroAoCodigo</p>
-            </div>
-
-          </li>
-          <li class="conteudoPrincipal__tweet">
-            <img class = "tweet__fotoPerfil" src="./assets/img/ProfilePic.png" alt="Daniel">
-            <div class="tweet__conteudo">
-              <h2>Daniel</h2>
-              <span>@danielkenzie 14s</span>
-              <p>MAIS DE UM MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. É hora de se preparar... #VouserDev #DoZeroAoCodigo</p>
-            </div>
-
-          </li>
-          <li class="conteudoPrincipal__tweet">
-            <img class = "tweet__fotoPerfil" src="./assets/img/ProfilePic.png" alt="Daniel">
-            <div class="tweet__conteudo">
-              <h2>Daniel</h2>
-              <span>@danielkenzie 14s</span>
-              <p>MAIS DE UM MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. É hora de se preparar... #VouserDev #DoZeroAoCodigo</p>
+              <span class="textoNomeDoUsuario">@danielkenzie • 14s</span>
+              <p>MAIS DE UM MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. É hora de se preparar... <span class="textoDeHashtag">#DoZeroAoCódigo</span>
+              </p>
             </div>
 
           </li>
