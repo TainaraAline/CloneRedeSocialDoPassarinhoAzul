@@ -124,7 +124,10 @@ header {
 .conteudoPrincipal__feed {
 }
 .conteudoPrincipal__listaTweets {
+  display: flex;
+  flex-flow: column-reverse nowrap;
 }
+
 .conteudoPrincipal__tweet {
   padding: 20px 32px;
   display: flex;
@@ -146,6 +149,7 @@ header {
 .textoNomeDoUsuario {
   display: inline-block;
   color: #828282;
+  margin-left: 3px;
 }
 .tweet__conteudo p {
   margin-top: 15px;
@@ -153,4 +157,7 @@ header {
 }
 .textoDeHashtag {
   color: #1da1f2;
+}
+.textoDeHashtag:hover {
+  cursor: pointer;
 }
